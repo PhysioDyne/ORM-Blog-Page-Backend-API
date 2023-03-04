@@ -31,5 +31,5 @@ API Endpoints
 - DELETE /blogs/:id: Deletes a specific blog.
 - GET /blogs/category/:category: Lists blogs belonging to a specific category.
 
-###A Valid Heading
+###Valid Heading
 semih
