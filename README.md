@@ -12,3 +12,6 @@ To run this project, the following libraries need to be installed first:
 -nodemon: Used to automatically restart the application.
 -sequelize: Used to perform database operations via ORM (Object-Relational Mapping).
 -You can install the required libraries using the following command:
+- Item Zed
+  - Nested Item # indented 2 spaces
+* Item Alt      # alternate bullet syntax
