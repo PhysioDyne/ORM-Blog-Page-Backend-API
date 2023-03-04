@@ -12,4 +12,21 @@ To run this project, the following libraries need to be installed first:
 - nodemon: Used to automatically restart the application.
 - sequelize: Used to perform database operations via ORM (Object-Relational Mapping).
 - You can install the required libraries using the following command:
+```bash
+npm install express dotenv multer mysql2 nodemon sequelize
+```
 
+npm install express dotenv multer mysql2 nodemon sequelize
+
+You can start the project using the following command:
+```
+npm run start
+```
+
+API Endpoints
+- GET /blogs: Lists all blogs.
+- POST /blogs: Creates a new blog.
+- GET /blogs/:id: Lists the details of a specific blog.
+- PUT /blogs/:id: Updates a specific blog.
+- DELETE /blogs/:id: Deletes a specific blog.
+- GET /blogs/category/:category: Lists blogs belonging to a specific category.
