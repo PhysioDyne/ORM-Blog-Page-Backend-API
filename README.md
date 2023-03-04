@@ -2,7 +2,7 @@
 It's example for orm sequelize using. This project has no authentication and validation
 This project is designed to create a blog web application using ExpressJS. In this project, users can create new blogs, update or delete existing blogs, filter by categories, access detail pages, and leave comments about blogs.
 
-Requirements
+##Requirements
 To run this project, the following libraries need to be installed first:
 
 - express: A web framework used to create web applications.
@@ -23,13 +23,14 @@ You can start the project using the following command:
 npm run start
 ```
 
-API Endpoints
-- GET /blogs: Lists all blogs.
-- POST /blogs: Creates a new blog.
-- GET /blogs/:id: Lists the details of a specific blog.
-- PUT /blogs/:id: Updates a specific blog.
-- DELETE /blogs/:id: Deletes a specific blog.
-- GET /blogs/category/:category: Lists blogs belonging to a specific category.
-
-### Valid Heading
-semih
+##API Endpoints
+  ###USER SIDE
+- GET /: Lists all blogs.
+- GET /blogs/:slug: Shows a specific blog.
+- GET /blogs/category/:slug: Lists blogs belonging to a specific category.
+- GET /blogs: It routes to the admin category list
+  ###ADMIN SIDE
+- DELETE /admin/blog/delete/:blogid: It's to delete a post from blog
+- UPDATE /admin/blogs/:blogid: It's to edit any post.
+- CREATE /admin/blog/create: It's to create a new post.
+- REMOVE /admin/categories/remove: It's to remove a spesific category from blog 
