@@ -3,3 +3,6 @@ It's example for orm sequelize using. This project has no authentication and val
 ```bash
 npm install express dotenv multer mysql2 nodemon sequelize
 ```
+```js
+function () { return "This code is highlighted as Javascript!"}
+```
