@@ -16,7 +16,6 @@ To run this project, the following libraries need to be installed first:
 npm install express dotenv multer mysql2 nodemon sequelize
 ```
 
-npm install express dotenv multer mysql2 nodemon sequelize
 
 You can start the project using the following command:
 ```
